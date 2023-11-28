@@ -1,6 +1,6 @@
 ### VIM Editor
 
-![Alt text](./images/vim.jpg)
+![Alt text](./images/vim.jpeg)
 
 
 VIM Editor have 3 modes.
