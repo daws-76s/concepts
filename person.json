@@ -1,0 +1,30 @@
+{
+    "name": "sivakumar",
+    "dob": "2020-09-09",
+    "address": {
+        "address-line1": "veivek street",
+        "address-line2": "sanat nagar",
+        "city": "hyd"
+    }
+}
+
+{
+    "name": "sivakumar",
+    "dob": "2020-09-09",
+    "address": [
+        {
+            "address-line1": "veivek street",
+            "address-line2": "sanat nagar",
+            "city": "hyd",
+            "type": "home"
+        },
+        {
+            "address-line1": "veivek street",
+            "address-line2": "sanat nagar",
+            "city": "hyd",
+            "type": "office"
+        }
+    ]
+}
+
+

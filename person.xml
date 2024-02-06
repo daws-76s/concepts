@@ -1,0 +1,29 @@
+<Person>
+    <name>Sivakumar</name>
+    <DOB>1991-01-10</DOB>
+    <Address>
+        <address-line1>vivek street</address-line1>
+        <address-line2>sanath nagar</address-line2>
+        <street>4th cross</street>
+        <city>HYD</city>
+    </Address>
+</Person>
+
+<Person>
+    <name>Sivakumar</name>
+    <DOB>1991-01-10</DOB>
+    <Address>
+        <HomeAddres>
+            <address-line1>vivek street</address-line1>
+            <address-line2>sanath nagar</address-line2>
+            <street>4th cross</street>
+            <city>HYD</city>
+        </HomeAddres>
+        <OfficeAddres>
+            <address-line1>vivek street</address-line1>
+            <address-line2>sanath nagar</address-line2>
+            <street>4th cross</street>
+            <city>HYD</city>
+        </OfficeAddres>
+    </Address>
+</Person>

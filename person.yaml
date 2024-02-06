@@ -1,0 +1,18 @@
+- name: sivakumar
+  dob: "2023-09-09"
+  address:
+    address-line1: vivek street
+    address-line2: sanath nagar
+    city: HYD
+  email: info@joindevops.com
+
+- name: ramesh
+  dob: "2022-09-08"
+  address:
+  - address-line1: vivek street1
+    address-line2: sanath nagar1
+    city: HYD1
+  - address-line1: vivek street2
+    address-line2: sanath nagar2
+    city: HYD2
+  email: info@joindevops.com
