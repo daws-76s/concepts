@@ -1,0 +1,10 @@
+groups:
+- name: High CPU Utilization
+  rules:
+  - alert: HighCPUUtilization
+    expr: 100 - (avg by (instance) (rate(node_cpu_seconds_total{mode="idle"}[5m]) * 100)) > 0.3 # usually we monitor over 70
+    for: 1m
+    labels:
+      severity: warning
+    annotations:
+      summary: HighCPUUtilization

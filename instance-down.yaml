@@ -1,0 +1,10 @@
+groups:
+- name: Instance Down
+  rules:
+  - alert: InstanceDown
+    expr: up < 1
+    for: 1m
+    labels:
+      severity: critical
+    annotations:
+      summary: InstanceDownAlert
